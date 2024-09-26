@@ -1,4 +1,4 @@
-# This file was created Thu Sep 19 17:34:11 2024
+# This file was created Thu Sep 26 14:56:59 2024
 # Created by:
 #                      :-) GROMACS - gmx energy, 2020.4 (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx_mpi energy -f nvt.edr -o temperature.xvg
 # gmx energy is part of G R O M A C S:
 #
-# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+# GROningen Mixture of Alchemy and Childrens' Stories
 #
 @    title "GROMACS Energies"
 @    xaxis  label "Time (ps)"

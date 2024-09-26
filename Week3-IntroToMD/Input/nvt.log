@@ -30,7 +30,7 @@ GROMACS:      gmx mdrun, version 2020.4
 Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
 Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
 Working dir:  /scratch/work/courses/CHEM-GA-2671-2024fa/students/st5423/comp-lab-class-2024/Week3-IntroToMD/Input
-Process ID:   2812737
+Process ID:   1922485
 Command line:
   gmx_mpi mdrun -deffnm nvt
 
@@ -54,7 +54,7 @@ C++ compiler flags: -xCORE-AVX512 -qopt-zmm-usage=high -mkl=sequential -wd3180 -
 
 
 Running on 1 node with total 48 cores, 48 logical cores
-Hardware detected on host cm024.hpc.nyu.edu (the node of MPI rank 0):
+Hardware detected on host cm020.hpc.nyu.edu (the node of MPI rank 0):
   CPU info:
     Vendor: Intel
     Brand:  Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz
@@ -368,7 +368,7 @@ We have the following groups for center of mass motion removal:
 RMS relative constraint deviation after constraining: 2.88e-06
 Initial temperature: 301.097 K
 
-Started mdrun on rank 0 Thu Sep 19 17:28:38 2024
+Started mdrun on rank 0 Thu Sep 26 08:27:40 2024
 
            Step           Time
               0        0.00000
@@ -1673,7 +1673,7 @@ Started mdrun on rank 0 Thu Sep 19 17:28:38 2024
            Step           Time
           50000      100.00000
 
-Writing checkpoint, step 50000 at Thu Sep 19 17:32:58 2024
+Writing checkpoint, step 50000 at Thu Sep 26 08:32:03 2024
 
 
    Energies (kJ/mol)
@@ -1763,28 +1763,28 @@ On 1 MPI rank
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    1       1001      10.601         30.670   4.1
- Force                  1    1      50001     175.741        508.453  67.5
- PME mesh               1    1      50001      63.729        184.382  24.5
- NB X/F buffer ops.     1    1      99001       1.706          4.937   0.7
- Write traj.            1    1        101       0.338          0.978   0.1
- Update                 1    1      50001       1.298          3.756   0.5
- Constraints            1    1      50003       6.235         18.039   2.4
- Rest                                           0.709          2.050   0.3
+ Neighbor search        1    1       1001      10.739         31.069   4.1
+ Force                  1    1      50001     176.388        510.320  67.1
+ PME mesh               1    1      50001      64.847        187.614  24.7
+ NB X/F buffer ops.     1    1      99001       1.849          5.348   0.7
+ Write traj.            1    1        101       0.332          0.962   0.1
+ Update                 1    1      50001       1.525          4.413   0.6
+ Constraints            1    1      50003       6.415         18.558   2.4
+ Rest                                           0.790          2.285   0.3
 -----------------------------------------------------------------------------
- Total                                        260.357        753.265 100.0
+ Total                                        262.885        760.570 100.0
 -----------------------------------------------------------------------------
  Breakdown of PME mesh computation
 -----------------------------------------------------------------------------
- PME spread             1    1      50001      18.933         54.777   7.3
- PME gather             1    1      50001      29.251         84.630  11.2
- PME 3D-FFT             1    1     100002      14.076         40.725   5.4
- PME solve Elec         1    1      50001       1.404          4.062   0.5
+ PME spread             1    1      50001      19.625         56.779   7.5
+ PME gather             1    1      50001      29.314         84.812  11.2
+ PME 3D-FFT             1    1     100002      14.389         41.629   5.5
+ PME solve Elec         1    1      50001       1.430          4.137   0.5
 -----------------------------------------------------------------------------
 
                Core t (s)   Wall t (s)        (%)
-       Time:      260.357      260.357      100.0
+       Time:      262.883      262.885      100.0
                  (ns/day)    (hour/ns)
-Performance:       33.186        0.723
-Finished mdrun on rank 0 Thu Sep 19 17:32:58 2024
+Performance:       32.867        0.730
+Finished mdrun on rank 0 Thu Sep 26 08:32:03 2024
 
