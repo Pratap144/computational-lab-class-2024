@@ -1,0 +1,8 @@
+
+file '/Users/pratap144/Desktop/2dWCA_d0.5.png'
+file '/Users/pratap144/Desktop/2dWCA_d0.6.png'
+file '/Users/pratap144/Desktop/2dWCA_d0.7.png'
+file '/Users/pratap144/Desktop/2dWCA_d0.8.png'
+file '/Users/pratap144/Desktop/2dWCA_d0.9.png'
+file '/Users/pratap144/Desktop/2dWCA_d1.png'
+file '/Users/pratap144/Desktop/2dWCA_d1.1.png'
